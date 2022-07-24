@@ -1,15 +1,16 @@
-﻿int x = 0;
+﻿int n = 0;
 
-Console.WriteLine("Введите число x: ");
-x = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число N: ");
+n = int.Parse(Console.ReadLine());
 
+int[] array = new int[n];
+for (int i = 1; i < n; i++);
 
-
-if (x%2 == 0)
+if (i%2 == 0)
 {
-    Console.Write($"{x} - чётное число");
+    Console.Write($"{i}");
 }
 else
 {
-   Console.Write($"{x} - нечётное число");  
+   Console.Write();  
 }
