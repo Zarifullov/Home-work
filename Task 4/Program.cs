@@ -3,14 +3,14 @@
 Console.WriteLine("Введите число N: ");
 n = int.Parse(Console.ReadLine());
 
-int[] array = new int[n];
-for (int i = 1; i < n; i++);
+int index = 1;
 
-if (i%2 == 0)
+while (index <= n)
 {
-    Console.Write($"{i}");
-}
-else
-{
-   Console.Write();  
+   if (index % 2 == 0)
+   {
+    Console.Write($"{index}, ");
+   }
+
+    index++;
 }
